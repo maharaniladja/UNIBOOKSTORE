@@ -4,7 +4,6 @@
 
 @section('content')
     <div class="container py-4">
-        <!-- Hero Section dengan Shadow dan Border Radius -->
         <div class="text-center p-5 bg-light rounded-4 shadow-sm mb-5">
             <h1 class="fw-bold display-4">Selamat Datang di <span style="color: #534582;">UNIBOOKSTORE</span> <i class="fas fa-book" style="color: #534582;"></i></h1>
             <p class="text-muted lead">Temukan berbagai buku menarik dari penerbit terbaik untuk kebutuhan literasi Anda</p>

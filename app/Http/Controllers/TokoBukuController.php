@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class TokoBukuController extends Controller
 {
-    // Halaman Home/Beranda - Menampilkan daftar buku dengan pencarian
+    // Halaman Home/Beranda 
     public function home(Request $request)
     {
         $search = $request->input('search');
@@ -29,7 +29,7 @@ class TokoBukuController extends Controller
         return view('home', compact('bukus', 'search', 'totalBuku', 'totalPenerbit', 'stokMenipis'));
     }
     
-    // Halaman Admin - Menampilkan dan mengelola data buku dan penerbit
+    // Halaman Admin 
     public function admin()
     {
         $bukus = Buku::with('dataPenerbitBuku')->get();
